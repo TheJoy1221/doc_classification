@@ -1,6 +1,6 @@
-# 🧠 PDFMaster
+# 🧠 Doc_classification
 
-**PDFMaster** is an intelligent document processing pipeline for scanned and text-based PDFs. It uses a hybrid transformer + GPT-based approach to classify documents as **Invoices** or **Other**, with fallback OCR strategies and audit logging.
+**Doc_classification** is an intelligent document processing pipeline for scanned and text-based PDFs. It uses a hybrid transformer + GPT-based approach to classify documents as **Invoices** or **Other**, with fallback OCR strategies and audit logging.
 
 ---
 
@@ -18,8 +18,8 @@
 ## 📂 Project Structure
 
 ```
-pdfmaster/
-├── pdfmaster.py                  # Main automation script
+doc_classification/
+├── classification.py                  # Main automation script
 ├── train_invoice_classifier.py  # BERT training script
 ├── .env.example                 # Environment config template
 ├── README.md
@@ -33,7 +33,7 @@ pdfmaster/
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/pdfmaster.git
+   git clone https://github.com/your-username/doc_classification.git
    cd pdfmaster
    ```
 
@@ -54,7 +54,7 @@ pdfmaster/
 
 5. Run main script  
    ```bash
-   python pdfmaster.py
+   python classification.py
    ```
 
 ---
