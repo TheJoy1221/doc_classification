@@ -73,7 +73,7 @@ doc_classification/
 
 ---
 
-## odel Training Notes
+## Model Training Notes
 
 This repo includes `train_invoice_classifier.py` to generate your own BERT model.
 Ensure `transformers` and `datasets` are installed, and customize the dataset in-script.
