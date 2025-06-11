@@ -1,4 +1,4 @@
-# 🧠 Doc_classification
+# Doc_classification
 
 **Doc_classification** is an intelligent document processing pipeline for scanned and text-based PDFs. It uses a hybrid transformer + GPT-based approach to classify documents as **Invoices** or **Other**, with fallback OCR strategies and audit logging.
 
@@ -6,12 +6,12 @@
 
 ## 🚀 Features
 
-- 🔍 Multi-fallback PDF parsing: `pdfplumber`, `PyPDF2`, `pypdfium2`, `OCR`, etc.
-- 🤖 BERT-based classification (custom-trained)
-- 🧠 GPT secondary classification refinement
-- 📦 File sorting & movement into `/Invoices` and `/Other`
-- 📜 Logs classifications in CSV for transparency
-- 🔐 Configurable via `.env`
+- Multi-fallback PDF parsing: `pdfplumber`, `PyPDF2`, `pypdfium2`, `OCR`, etc.
+- BERT-based classification (custom-trained)
+- GPT secondary classification refinement
+- File sorting & movement into `/Invoices` and `/Other`
+- Logs classifications in CSV for transparency
+- Configurable via `.env`
 
 ---
 
@@ -73,13 +73,9 @@ doc_classification/
 
 ---
 
-## 📘 Model Training Notes
+## odel Training Notes
 
 This repo includes `train_invoice_classifier.py` to generate your own BERT model.
 Ensure `transformers` and `datasets` are installed, and customize the dataset in-script.
 
 ---
-
-## ✨ Built With Love
-
-Crafted by Amanda with precision, purpose, and a spark of magic.
